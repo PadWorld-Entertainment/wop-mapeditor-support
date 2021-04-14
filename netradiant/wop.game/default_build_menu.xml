@@ -47,9 +47,9 @@ build commands
 <command>[q3map2] -vis -saveprt "[MapFile]"</command>
 <command>[q3map2] -light -custinfoparms -fast -filter -patchshadows -bounce 8 -super 2 "[MapFile]"</command>
 </build>
-<build name="Q3Map2: (map2ase) BSP -meta -patchmeta, -convert ase">
-<command>[q3map2] -meta -patchmeta "[MapFile]"</command>
-<command>[q3map2] -convert -format ase "[MapFile]"</command>
+<build name="Q3Map2: (map2ase) BSP -np 1 -meta -patchmeta -subdivisions 1, -convert ase">
+<command>[q3map2] -np 1 -meta -patchmeta -subdivisions 1 "[MapFile]"</command>
+<command>[q3map2] -convert ase "[MapFile]"</command>
 </build>
 </project>
 
