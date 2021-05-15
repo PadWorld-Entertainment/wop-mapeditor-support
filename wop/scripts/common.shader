@@ -1,5 +1,5 @@
 // World of Padman common shader
-// Contains mostly sahders for map editor support and q3map2 features
+// Contains mostly shaders for map editor support and q3map2 features
 
 // =================
 // ALPHA FADE
@@ -104,7 +104,7 @@ textures/common/watercaulk		// use on faces between or overlap water brushes
 }
 
 // =================
-// CLiP & Cushion
+// CLiP & CUSHiON
 // =================
 
 textures/common/botclip			// blocks ONLY bots
