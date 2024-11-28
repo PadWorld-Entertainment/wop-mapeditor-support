@@ -53,7 +53,7 @@ Ammunition bottle for BALLOONY.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 4. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 -------- MODEL FOR MAP EDITOR ONLY - DO NOT SET THIS AS A KEY --------
@@ -85,7 +85,7 @@ Ammunition bottle for BETTY.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 4. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 -------- MODEL FOR MAP EDITOR ONLY - DO NOT SET THIS AS A KEY --------
@@ -117,7 +117,7 @@ Ammunition bottle for BOASTER.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 4. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 -------- MODEL FOR MAP EDITOR ONLY - DO NOT SET THIS AS A KEY --------
@@ -149,7 +149,7 @@ Ammunition bottle for BUBBLE.G.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 4. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 -------- MODEL FOR MAP EDITOR ONLY - DO NOT SET THIS AS A KEY --------
@@ -180,7 +180,7 @@ Ammunition bottle for iMPERiUS.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team spray sptp balloon ctl. iMPERiUS won't spawn in lps gametype.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". iMPERiUS ammo won't spawn in lps gametype.
 3. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 4. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 -------- MODEL FOR MAP EDITOR ONLY - DO NOT SET THIS AS A KEY --------
@@ -212,7 +212,7 @@ Ammunition bottle for NiPPER.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 4. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 -------- MODEL FOR MAP EDITOR ONLY - DO NOT SET THIS AS A KEY --------
@@ -244,7 +244,7 @@ Ammunition bottle for PUMPER.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 4. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 -------- MODEL FOR MAP EDITOR ONLY - DO NOT SET THIS AS A KEY --------
@@ -276,7 +276,7 @@ Ammunition bottle for SPLASHER.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 4. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 -------- MODEL FOR MAP EDITOR ONLY - DO NOT SET THIS AS A KEY --------
@@ -374,7 +374,7 @@ Pushable button, usually used to trigger other entities or just open doors. When
 "_layers" or "layers" : Number of unique root shaders that will be used on the terrain surface.
 "_shader" or "shader" : Metashader used to assign textures to the terrain entity (see note 4).
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. This entity requires an origin. It can either be a square brush of 16x16x16 or 32x32x32 with the common/origin texture in all of its faces as part of the entity, or a pair of coordinates set in the 'origin' key. This origin is also tied to the 'noise' key, as otherwise the sound won't follow the entity as it moves.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. The route of the '_celshader' and 'shader'/'_shader' keys MUST omit 'textures/' at the beginning, otherwise it won't work.
@@ -432,7 +432,7 @@ Movable brush usually used as a door, hence the name. By default, a door activat
 "CRUSHER" : The door does not reverse direction when blocked and will damage the player until they die or move out of the way.
 --------- NOTES --------
 1. The keys 'angle' and 'angles' are mutually exclusive. Only one of them can be used at a time.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. This entity requires an origin. It can either be a square brush of 16x16x16 or 32x32x32 with the common/origin texture in all of its faces as part of the entity, or a pair of coordinates set in the 'origin' key. This origin is also tied to the 'noise' key, as otherwise the sound won't follow the entity as it moves.
 4. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 5. The route of the '_celshader' and 'shader'/'_shader' keys MUST omit 'textures/' at the beginning, otherwise it won't work.
@@ -493,7 +493,7 @@ Movable brush usually used as a rotating door on the Z axis, hence the name. By 
 "X_AXIS" : Brush entity will open on the X axis.
 "Y_AXIS" : Brush entity will open on the Y axis.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. This entity requires an origin. It can either be a square brush of 16x16x16 or 32x32x32 with the common/origin texture in all of its faces as part of the entity, or a pair of coordinates set in the 'origin' key. This origin is also tied to the 'noise' key, as otherwise the sound won't follow the entity as it moves.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. The route of the '_celshader' and 'shader'/'_shader' keys MUST omit 'textures/' at the beginning, otherwise it won't work.
@@ -570,7 +570,7 @@ A swinging pendulum. Pendulums always swing north/south (X axis) on unrotated mo
 "_shader" or "shader" : Metashader used to assign textures to the terrain entity (see note 5).
 --------- NOTES --------
 1. The keys 'angle' and 'angles' are mutually exclusive. Only one of them can be used at a time.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. The string '*falling1' in the 'noise' key will play character-specific sounds when the characters are falling into a pit. Sounds need to be formatted in mono, 32-bit PCM is not supported and OGG files will only work if the extension is omitted.
 4. This entity requires an origin. It can either be a square brush of 16x16x16 or 32x32x32 with the common/origin texture in all of its faces as part of the entity, or a pair of coordinates set in the 'origin' key. This origin is also tied to the 'noise' key, as otherwise the sound won't follow the entity as it moves.
 5. The route of the '_celshader' and 'shader'/'_shader' keys MUST omit 'textures/' at the beginning, otherwise it won't work.
@@ -616,7 +616,7 @@ Activable platforms. Plats are always drawn in the extended position so they wil
 "_layers" or "layers" : Number of unique root shaders that will be used on the terrain surface.
 "_shader" or "shader" : Metashader used to assign textures to the terrain entity (see note 3).
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. This entity requires an origin. It can either be a square brush of 16x16x16 or 32x32x32 with the common/origin texture in all of its faces as part of the entity, or a pair of coordinates set in the 'origin' key. This origin is also tied to the 'noise' key, as otherwise the sound won't follow the entity as it moves.
 3. The route of the '_celshader' and 'shader'/'_shader' keys MUST omit 'textures/' at the beginning, otherwise it won't work.
 4. This entity can have a model attached to it. For this, the entity must have a 'targetname' key set, and the model must target this entity.
@@ -662,7 +662,7 @@ A rotating entity, used for decorations or moving platforms. The center of that 
 "X_AXIS" : Brush entity will rotate on the X axis.
 "Y_AXIS" : Brush entity will rotate on the Y axis.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. The string '*falling1' in the 'noise' key will play character-specific sounds when the characters are falling into a pit. Sounds need to be formatted in mono, 32-bit PCM is not supported and OGG files will only work if the extension is omitted.
 3. This entity requires an origin. It can either be a square brush of 16x16x16 or 32x32x32 with the common/origin texture in all of its faces as part of the entity, or a pair of coordinates set in the 'origin' key. This origin is also tied to the 'noise' key, as otherwise the sound won't follow the entity as it moves.
 4. The route of the '_celshader' and 'shader'/'_shader' keys MUST omit 'textures/' at the beginning, otherwise it won't work.
@@ -705,7 +705,7 @@ A bsp model that just sits there, doing nothing. Can be used for conditional wal
 "_layers" or "layers" : Number of unique root shaders that will be used on the terrain surface.
 "_shader" or "shader" : Metashader used to assign textures to the terrain entity (see note 4).
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. This entity requires an origin. It can either be a square brush of 16x16x16 or 32x32x32 with the common/origin texture in all of its faces as part of the entity, or a pair of coordinates set in the 'origin' key. This origin is also tied to the 'noise' key, as otherwise the sound won't follow the entity as it moves.
 3. In the Spray Your Color team mode, the red spray wall (1) scores for the red team and the blue spray wall (2) scores for the blue team. The neutral spray wall (3) is then disabled. In Spray Your Color ffa mode, points can be scored on any spray wall, so maps that offer both modes usually use only red and blue spray walls.
 4. The route of the '_celshader' and 'shader'/'_shader' keys MUST omit 'textures/' at the beginning, otherwise it won't work.
@@ -732,7 +732,7 @@ Repeatedly fires its targets. Can be turned on or off by using another func or t
 -------- SPAWNFLAGS --------
 "START_ON" : The timer entity will start turned on in the game and continuously fire its targets.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of triggering all targets from the 'wait' key. The final delay is a random value that lies somewhere between the minimum and maximum values, i.e. between 'wait' - 'random' to 'wait' + 'random'.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 */
@@ -774,7 +774,7 @@ A move is a mover that moves between path_corner target points. The train spawns
 "_layers" or "layers" : Number of unique root shaders that will be used on the terrain surface.
 "_shader" or "shader" : Metashader used to assign textures to the terrain entity (see note 3).
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. This entity requires an origin. It can either be a square brush of 16x16x16 or 32x32x32 with the common/origin texture in all of its faces as part of the entity, or a pair of coordinates set in the 'origin' key.
 3. The route of the '_celshader' and 'shader'/'_shader' keys MUST omit 'textures/' at the beginning, otherwise it won't work.
 4. This entity can have a model attached to it. For this, the entity must have a 'targetname' key set, and the model must target this entity.
@@ -805,7 +805,7 @@ Holdable item FLOATER. Allows players to fly. Players can only carry one holdabl
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -836,7 +836,7 @@ Holdable item KiLLERDUCKS. Allows players to unleash up to 5 biting kamikaze duc
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -867,7 +867,7 @@ Holdable item BAMBAM. Allows players to set up an automatic firing turret. Playe
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item will only spawn in ctl and onelolly.
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -898,7 +898,7 @@ Holdable item BOOMiES. Allows players to place up to 3 explosive limpet mines. P
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item will only spawn in ctl, onelolly and balloon.
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -930,7 +930,7 @@ Used as a positional target for in-game calculation, like jumppad targets. Bette
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "targetname" : Name of the entity that points to this entity.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -946,7 +946,7 @@ Used as a positional target for calculations in the utilities (spotlights, etc.)
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "targetname" : Name of the entity that points to this entity.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -968,7 +968,7 @@ Potential spawning position for death match games (see note 1). The first time a
 "INITIAL" : makes the spawnpoint the initial place for the player to spawn at the beginning of the game.
 --------- NOTES --------
 1. Maps must have at least 8 of this kind of spawn point without either 'gametype' or 'not*' in order to prevent friendly telefragging. Bigger maps may require up to 16 of this spawn point.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1019,7 +1019,7 @@ The PADSHiELD armor item gives the player 100 shield points. All armor items can
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team spray sptp balloon ctl. This item won't spawn in lps gametype.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item won't spawn in lps gametype.
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' key. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -1047,7 +1047,7 @@ The PADSHARD armor item gives the player 5 shield points. All armor items can be
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team spray sptp balloon ctl. This item won't spawn in lps gametype.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item won't spawn in lps gametype.
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' key. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -1060,14 +1060,16 @@ model="models/powerups/armor/pad_shard.md3"*/
 /*QUAKED item_botroam (1.0 0.5 0) (-8 -8 -8) (8 8 8) SUSPENDED
 Invisible entity that attracts bots into areas they may not be usually interested. They'll try to reach it and touch it like it was a pickup. It has no effect on human players.
 --------- KEYS --------
+"gametype" : If set, the entity will ONLY appear in these gametypes (see note 1).
+"notgametype" : If set, the entity will NOT appear in these gametypes (see note 1).
 "notfree" : If set to 1, this entity won't spawn in free-for-all gametypes.
 "notsingle" : If set to 1, this entity won't spawn in single-player mode.
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "weight" : Priority level the nearby bot uses to determine if they want to go to that location.
 -------- SPAWNFLAGS --------
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
---------- NOTES --------
-Values for the 'gametype' and '!gametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team ctf oneflag obelisk harvester elimination lms dd dom pos
+-------- NOTES --------
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1093,7 +1095,7 @@ JUMPER allows to jump more than six times higher than normal.
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team spray sptp balloon ctl. This item won't spawn in lps gametype.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item won't spawn in lps gametype.
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' key. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -1124,7 +1126,7 @@ PADPOWER amplifies a weapon's damage by a factor of 2, absorbs half damage from 
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team spray sptp balloon ctl. This item won't spawn in lps gametype.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item won't spawn in lps gametype.
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' key. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -1155,7 +1157,7 @@ REViVAL regenerates the player's health up to a maximum of 200.
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team spray sptp balloon ctl. This item won't spawn in lps gametype.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item won't spawn in lps gametype.
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' key. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -1186,7 +1188,7 @@ SPEEDY grants the player two times faster speed and pushes away teammates and op
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team spray sptp balloon ctl. This item won't spawn in lps gametype.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item won't spawn in lps gametype.
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' key. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -1217,7 +1219,7 @@ ViSiONLESS lets the player become very transparent. Only with a slightly shimmer
 "SUSPENDED" : The item will spawn at the coordinates where it was placed without falling on the floor.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team spray sptp balloon ctl. This item won't spawn in lps gametype.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item won't spawn in lps gametype.
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 4. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' key. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
@@ -1291,7 +1293,7 @@ Displays a model loaded during runtime in the game, as opposed to misc_model whi
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 -------- NOTES --------
 1. The keys 'angle' and 'angles' are mutually exclusive. Only one of them can be used at a time.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1350,7 +1352,7 @@ The portal camera is used to project its view onto a portal surface in the map. 
 "FAST_ROTATE" : The portal camera rotates faster along the roll axis.
 "NO_SWING" : Prevents the swinging of the camera portal.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. If either the SLOW_ROTATE, FAST_ROTATE or NO_SWING spawnflag is set, then the 'roll' key is irrelevant.
 */
 
@@ -1367,7 +1369,7 @@ The portal surface nearest this entity will show a view from the targeted misc_p
 "notsingle" : If set to 1, this entity won't spawn in single-player mode.
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1392,7 +1394,7 @@ The player will be teleportet to the position of this entity when targeted by tr
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "targetname" : Name of the entity that points to this entity.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1413,7 +1415,7 @@ Train path corners.
 "targetname" : Name of the entity that points to this entity.
 "wait" : Seconds to wait before behining move to next corner. Default: 0.0.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1436,7 +1438,7 @@ Fires BALLOONY balloons when triggered at either the target by targeting an info
 "targetname" : Name of the entity that points to this entity.
 -------- NOTES --------
 1. The keys 'angle' and 'angles' are mutually exclusive. Only one of them can be used at a time.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Setting the random key to 0 wont disable it, but setting it to 180, 360 or 0.0000001 will do.
 */
 
@@ -1458,7 +1460,7 @@ Fires BETTY fire balls  when triggered at either the target by targeting an info
 "targetname" : Name of the entity that points to this entity.
 -------- NOTES --------
 1. The keys 'angle' and 'angles' are mutually exclusive. Only one of them can be used at a time.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Setting the random key to 0 wont disable it, but setting it to 180, 360 or 0.0000001 will do.
 */
 
@@ -1480,7 +1482,7 @@ Fires BUBBLE.G balls  when triggered at either the target by targeting an info_n
 "targetname" : Name of the entity that points to this entity.
 -------- NOTES --------
 1. The keys 'angle' and 'angles' are mutually exclusive. Only one of them can be used at a time.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Setting the random key to 0 wont disable it, but setting it to 180, 360 or 0.0000001 will do.
 */
 
@@ -1502,7 +1504,7 @@ Fires killerducks when triggered at either the target by targeting an info_notnu
 "targetname" : Name of the entity that points to this entity.
 -------- NOTES --------
 1. The keys 'angle' and 'angles' are mutually exclusive. Only one of them can be used at a time.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Setting the random key to 0 wont disable it, but setting it to 180, 360 or 0.0000001 will do.
 */
 
@@ -1523,7 +1525,7 @@ In a health station the player is able to refresh health.
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "speed" : Amount of health given to the player per second. Default: 2.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single team spray sptp balloon ctl. This item won't spawn in lps gametype.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon". This item won't spawn in lps gametype.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model="models/mapobjects/pad_healthstation/pad_hs_base.md3"
 */
@@ -1563,7 +1565,7 @@ An intermediate time delay trigger. It can only be fired by other triggers, whic
 "targetname" : Name of the entity that points to this entity.
 "wait" : Seconds to pause before firing targets. Default: 1.0.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 */
@@ -1584,7 +1586,7 @@ Gives the activator all the items pointed to.
 "targetShaderNewName" : Shader to be swapped in for triggerable shader entities (see note 2).
 "targetname" : Name of the entity that points to this entity.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 */
 
@@ -1601,7 +1603,7 @@ Kills the activator.
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "targetname" : Name of the entity that points to this entity.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1624,7 +1626,7 @@ When triggered, fires a laser.  You can either set a target or a direction.
 "START_ON" : If set, the laser will start turned on in the game.
 --------- NOTES --------
 1. The keys 'angle' and 'angles' are mutually exclusive. Only one of them can be used at a time.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1649,7 +1651,7 @@ Used to name areas and locations in the map. The closest target_location in sigh
 "notsingle" : If set to 1, this entity won't spawn in single-player mode.
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1665,7 +1667,7 @@ Used as a positional target for in-game calculation, like jumppad targets.
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "targetname" : Name of the entity that points to this entity.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1686,7 +1688,7 @@ RED_TEAM : Only the red team players will see the message.
 BLUE_TEAM : Only the blue team players will see the message.
 PRIVATE : Only the player that activates the target will see the message.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1708,7 +1710,7 @@ Pushes the activator in the direction of the angles or in the direction of a tar
 -------- SPAWNFLAGS --------
 "BOUNCE_PAD" : if set, trigger will play a bounce sound instead.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1731,7 +1733,7 @@ This doesn't perform any actions except fire its targets. The activator can be f
 "BLUE_ONLY" : Only blue team members are able activate trigger.
 "RANDOM" : One of the targeted entities will be triggered randoml.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 */
 
@@ -1748,7 +1750,7 @@ Takes away all the activators powerups but not holdables. Used to drop powerups 
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "targetname" : Name of the entity that points to this entity.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1765,7 +1767,7 @@ The activator is given this many points.
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "targetname" : Name of the entity that points to this entity.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1797,7 +1799,7 @@ LOOPED_OFF : The sound will loop and initially start off in level (will toggle o
 GLOBAL : The sound is played at full volume throughout the entire level.
 ACTIVATOR : The sound will only play for the player who activated the target.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. The string '*falling1' in the 'noise' key will play character-specific sounds when the characters are falling into a pit. Sounds need to be formatted in mono, 32-bit PCM is not supported and OGG files will only work if the extension is omitted.
 3. Combining the 'wait' and 'random' keys can be used to play non-looping sounds without the need for an activating trigger, but both keys must be used together. The value of the 'random' key is both added to and subtracted from the 'wait' key to randomize the wait delay to a certain degree.
 */
@@ -1816,7 +1818,7 @@ The activator will be teleported away to a specified location.
 "target" : All entities with a matching targetname will be used. Must be misc_teleporter_dest in this case.
 "targetname" : Name of the entity that points to this entity.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1844,7 +1846,7 @@ Initial spawnpoint for Blue team players.
 "notgametype" : If set, the entity will NOT appear in these gametypes (see note 1).
 "target" : Spawning will trigger the connected targets.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1857,7 +1859,7 @@ Potential, post-initial spawnpoint for Blue team players.
 "notgametype" : If set, the entity will NOT appear in these gametypes (see note 1).
 "target" : Spawning will trigger the connected targets.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1881,7 +1883,7 @@ Initial spawnpoint for Red team players.
 "notgametype" : If set, the entity will NOT appear in these gametypes (see note 1).
 "target" : Spawning will trigger the connected targets.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1894,7 +1896,7 @@ Potential, post-initial spawnpoint for Red team players.
 "notgametype" : If set, the entity will NOT appear in these gametypes (see note 1).
 "target" : Spawning will trigger the connected targets.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -1927,7 +1929,7 @@ This trigger will always fire. It is activated by the world.
 "targetShaderNewName" : Shader to be swapped in for triggerable shader entities (see note 2).
 "target" : All entities with a matching targetname will be used.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 */
 
@@ -1950,7 +1952,7 @@ SILENT : Supresses the sizzling sound while player is being hurt.
 NO_PROTECTION : Player will be hurt regardless of protection.
 SLOW : Changes the damage rate to once per second.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. Triggering a trigger_hurt will have no effect if the TOGGLE spawnflag is not set. A trigger_hurt always starts on in the game.
 */
 
@@ -1972,7 +1974,7 @@ Variable sized repeatable trigger. Must be targeted at one or more entities.
 "targetname" : Name of the entity that points to this entity.
 "wait" : Base time delay between triggering all targets. Default: 0.2, trigger once: -1.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 2. The value of the 'random' key is both added to and subtracted from the 'wait' key to randomize the wait delay to a certain degree.
 3. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
 */
@@ -1990,7 +1992,7 @@ Must point at a target_position or info_notnull, which will be the apex of the l
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 "target" : All entities with a matching targetname will be used.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -2011,7 +2013,7 @@ SPECTATORS_ONLY: Undocumented feature of vanilla Quake 3 Arena
 ENTER_SPRAYROOM: Defines this trigger_teleport as the entrance to the spray room in Spray Your Color game types.
 LEAVE_SPRAYROOM: Defines this trigger_teleport as the exit from the spray room in Spray Your Color game types.
 -------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -2026,7 +2028,7 @@ This defines the zone (size of the trigger brush) a player has to enter to captu
 
 //=============================================================================
 
-/*QUAKED trigger_forbiddenitems (0 0.5 0.5) ? ITEM_BAMBAM ITEM_BOOMIES
+/*QUAKED trigger_forbiddenitems (0 0.5 0.5) ? BAMBAM BOOMIES
 This defines the zone (size of the trigger brush) a player is not able to use restricted items. Useful in BB, CTL and 1LC game types.
 -------- KEYS --------
 "gametype" : If set, the entity will ONLY appear in these gametypes (see note 1).
@@ -2036,10 +2038,10 @@ This defines the zone (size of the trigger brush) a player is not able to use re
 "notsingle" : If set to 1, this entity won't spawn in single-player mode.
 "notteam" : If set to 1, this entity won't spawn in team-based gametypes.
 -------- SPAWNFLAGS --------
-ITEM_BAMBAM: Usage of BAMBAM is restricted.
-ITEM_BOOMIES: Usage of BOOMiES is restricted.
+BAMBAM: Usage of BAMBAM is restricted.
+BOOMIES: Usage of BOOMiES is restricted.
 --------- NOTES --------
-1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+1. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 */
 
 //=============================================================================
@@ -2079,7 +2081,7 @@ BALLOONY.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Valid values for the 'marker' key are: orange, green, blue, black, and purple. Only one color can be defined at a time.
 4. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 5. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
@@ -2114,7 +2116,7 @@ BETTY.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Valid values for the 'marker' key are: orange, green, blue, black, and purple. Only one color can be defined at a time.
 4. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 5. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
@@ -2149,7 +2151,7 @@ BOASTER.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Valid values for the 'marker' key are: orange, green, blue, black, and purple. Only one color can be defined at a time.
 4. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 5. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
@@ -2184,7 +2186,7 @@ BUBBLE.G..
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Valid values for the 'marker' key are: orange, green, blue, black, and purple. Only one color can be defined at a time.
 4. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 5. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
@@ -2219,7 +2221,7 @@ IMPERiUS.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Valid values for the 'marker' key are: orange, green, blue, black, and purple. Only one color can be defined at a time.
 4. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 5. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
@@ -2254,7 +2256,7 @@ NiPPER.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Valid values for the 'marker' key are: orange, green, blue, black, and purple. Only one color can be defined at a time.
 4. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 5. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
@@ -2289,7 +2291,7 @@ PUMPER.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Valid values for the 'marker' key are: orange, green, blue, black, and purple. Only one color can be defined at a time.
 4. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 5. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
@@ -2324,7 +2326,7 @@ SPLASHER.
 "RANDOM" : Teamed items will spawn in random cycle instead of alternating cycle.
 -------- NOTES --------
 1. Unless you're designing a map with a specific kind of gameplay in mind, it's advisable to NOT set the 'wait' or 'count' keys. Doing so will mess with what players know about item timings and effects. The amount of time it takes for an item in the team to respawn is determined by the "wait" value of the item that was picked up previously. So if one of the items in the team has it's 'wait' key set to -1 (never respawn), the rotational respawning cycle of the teamed items will stop after that item is picked up. Use 'RANDOM' spawnflag to change respawning cycle from rotational to random.
-2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: ffa tournament single spray lps ctkd team freeze ctl onelolly balloon.
+2. Values for the 'gametype' or 'notgametype' keys need to be separated by spaces. The valid values are the following: "ffa" "tournament" "single" "spray" "lps" "ctkd" "team" "freeze" "ctl" "onelolly" "balloon".
 3. Valid values for the 'marker' key are: orange, green, blue, black, and purple. Only one color can be defined at a time.
 4. The value of the 'random' key is used to calculate a minimum and a maximum time delay of an item respawn. The final delay is a random value that lies somewhere between the minimum and maximum values.
 5. Upon activation of the targets, all shaders/textures in the map with the shader/texture mentioned in targetShaderName will change to the shader/texture mentioned in targetShaderNewName. This is useful for on/off switches, for example.
